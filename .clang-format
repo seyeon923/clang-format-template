@@ -5,3 +5,5 @@ TabWidth: 4
 AccessModifierOffset: -4
 SortIncludes: false
 IndentPPDirectives: AfterHash
+DerivePointerAlignment: false
+PointerAlignment: Left
