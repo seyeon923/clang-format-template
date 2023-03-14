@@ -11,6 +11,8 @@ private:
     int val_;
 };
 
+void foo(int& x) { std::cout << "foo " << std::endl; }
+
 int main() {
     A* pa = new A();
     delete pa;
